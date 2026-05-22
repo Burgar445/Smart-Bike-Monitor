@@ -75,6 +75,7 @@ void actualizeazaLCD() {
 }
 
 void setup() {
+  // 1. Initializare LCD
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
